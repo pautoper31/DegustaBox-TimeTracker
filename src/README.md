@@ -2,7 +2,7 @@
 
 The application is created with Laravel, React and MySQL.
 
-#### Run Without Docker
+## Run Without Docker
 To be able to run the application without using Docker you need: 
 - PHP >= 7.4
 - Composer
@@ -25,7 +25,7 @@ If you get an error when running the ```php artisan migrate``` command because t
 
 Open up your browser and go to http://localhost:8000 and you should see the App runing. Make sure that MySQL service is running.   
  
-#### Run With Docker
+## Run With Docker
 To be able to run the application with using Docker you need: 
 - Docker
 - Docker compose
@@ -46,7 +46,7 @@ The command ```sudo docker-compose exec nginx chmod -R 777 /var/www/html/storage
 
 Open up your browser and go to http://localhost:8080 and you should see the App runing.
 
-### Extra Commands
+## Extra Commands
 
 3 optional commands have been created to view, create and finish tasks.
 
@@ -58,3 +58,5 @@ The commands are:
 - ```tasks show``` : This command will display all tasks and their total time.
 - ```task start {name}```: This command will create a new task with the name indicated on the {name} param. 
 - ```task end {name}```: This command will end a existing task with the name indicated on the {name} param.
+
+
